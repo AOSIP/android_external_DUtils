@@ -372,7 +372,7 @@ public class ActionHandler {
     public static void preloadRecentApps() {
         StatusBarHelper.preloadRecentApps();
     }
-/*
+
     public static void performTaskFromKeyguard(Context ctx, String action) {
         // null: throw it out
         if (action == null) {
@@ -389,7 +389,7 @@ public class ActionHandler {
             performTask(ctx, action);
         }
     }
-*/
+
     public static void performTask(Context context, String action) {
         // null: throw it out
         if (action == null) {
